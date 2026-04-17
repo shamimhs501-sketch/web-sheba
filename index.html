@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sheba - The Ultimate Growth Partner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Web <span>Sheba.</span></div>
+        <nav>
+            <i class="fa-solid fa-sun" id="theme-toggle"></i>
+            <i class="fa-solid fa-bars" id="menu-toggle"></i>
+        </nav>
+    </header>
+
+    <!-- 1. Hero Section -->
+    <section class="hero">
+        <div class="badge">LIMITED TIME OFFER</div>
+        <h1>The Ultimate<br>Growth Partner</h1>
+        <p>Stop losing customers with slow websites. Get a premium hand-coded landing page that loads in 0.5s and converts 3x better than WordPress.</p>
+        
+        <div class="countdown">
+            <div class="time-box"><span id="days">02</span><small>Days</small></div>
+            <div class="time-box"><span id="hours">23</span><small>Hours</small></div>
+            <div class="time-box"><span id="minutes">59</span><small>Minutes</small></div>
+            <div class="time-box"><span id="seconds">53</span><small>Seconds</small></div>
+        </div>
+
+        <div class="cta-buttons">
+            <button class="btn-primary" onclick="scrollToSection('pricing')">Claim Your Discount</button>
+            <button class="btn-secondary" onclick="scrollToSection('features')">See Features</button>
+        </div>
+    </section>
+
+    <!-- 2. Problem/Solution Section -->
+    <section class="problem">
+        <h2>Your Website Is Losing You Money</h2>
+        <div class="problem-grid">
+            <div class="problem-card">
+                <i class="fa-solid fa-gauge-high"></i>
+                <h3>Slow Loading = 53% Bounce</h3>
+                <p>Google says 53% users leave if site takes >3s. WordPress takes 4.2s avg.</p>
+            </div>
+            <div class="problem-card">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h3>Not Mobile Optimized</h3>
+                <p>70% traffic is mobile. But themes break on phone. You lose customers.</p>
+            </div>
+            <div class="problem-card">
+                <i class="fa-solid fa-circle-dollar-to-slot"></i>
+                <h3>Low Conversion Rate</h3>
+                <p>Generic templates don't sell. You need psychology + design that converts.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Features Section -->
+    <section id="features" class="features">
+        <h2>Why Web Sheba Converts 3x Better</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fa-solid fa-rocket"></i>
+                <h3>0.5s Load Time</h3>
+                <p>Pure HTML/CSS. No bloated plugins. GTmetrix A+ Score guaranteed.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-solid fa-brain"></i>
+                <h3>Psychology Design</h3>
+                <p>Colors, fonts, CTA placement backed by 100+ A/B tests.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-solid fa-mobile"></i>
+                <h3>Mobile First</h3>
+                <p>Designed on iPhone first. 100% responsive on all devices.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Clean Code</h3>
+                <p>SEO optimized. Easy to edit. No builder lock-in.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h3>Secure & Fast</h3>
+                <p>No database. No hacking. Host anywhere for ৳100/month.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-solid fa-headset"></i>
+                <h3>30 Day Support</h3>
+                <p>We fix any bug + 1 free revision. WhatsApp support.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Social Proof -->
+    <section class="testimonials">
+        <h2>Trusted by 200+ Businesses</h2>
+        <div class="logo-bar">
+            <span>TechCorp</span><span>EduPro</span><span>ShopBD</span><span>AgencyX</span>
+        </div>
+        <div class="review-grid">
+            <div class="review-card">
+                <p>"3 দিনে সেল 2x হইছে। বেস্ট ইনভেস্টমেন্ট।"</p>
+                <h4>- Rahim, CEO TechCorp</h4>
+            </div>
+            <div class="review-card">
+                <p>"আগে WordPress এ মাসে ৳50K খরচ হতো। এখন ৳100।"</p>
+                <h4>- Karima, Founder EduPro</h4>
+            </div>
+            <div class="review-card">
+                <p>"Countdown টাইমারটা ম্যাজিক। 60% বেশি ক্লিক।"</p>
+                <h4>- Sakib, Affiliate Marketer</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Pricing Section - FIXED: target="_blank" এড করা হইছে -->
+    <section id="pricing" class="pricing">
+        <h2>Simple Pricing. One-Time Pay.</h2>
+        <div class="pricing-grid">
+            <div class="price-card">
+                <h3>Starter</h3>
+                <div class="price">৳5,000</div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> 1 Page Landing</li>
+                    <li><i class="fa-solid fa-check"></i> Mobile Responsive</li>
+                    <li><i class="fa-solid fa-check"></i> Countdown Timer</li>
+                    <li><i class="fa-solid fa-xmark"></i> Contact Form</li>
+                    <li><i class="fa-solid fa-xmark"></i> 30 Day Support</li>
+                </ul>
+                <a href="https://wa.me/8801639366783?text=Boss%20Starter%20Package%205000%20tk%20nite%20chai" target="_blank" class="btn-secondary">WhatsApp এ অর্ডার</a>
+            </div>
+            <div class="price-card popular">
+                <div class="popular-badge">MOST POPULAR</div>
+                <h3>Pro</h3>
+                <div class="price">৳12,000</div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> 6 Section Landing</li>
+                    <li><i class="fa-solid fa-check"></i> Contact Form → Email</li>
+                    <li><i class="fa-solid fa-check"></i> WhatsApp Chat Button</li>
+                    <li><i class="fa-solid fa-check"></i> 30 Day Support</li>
+                    <li><i class="fa-solid fa-check"></i> 1 Free Revision</li>
+                </ul>
+                <a href="https://wa.me/8801639366783?text=Boss%20Pro%20Package%2012000%20tk%20nite%20chai" target="_blank" class="btn-primary">WhatsApp এ অর্ডার</a>
+            </div>
+            <div class="price-card">
+                <h3>Agency</h3>
+                <div class="price">৳20,000</div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> Everything in Pro</li>
+                    <li><i class="fa-solid fa-check"></i> Custom Animation</li>
+                    <li><i class="fa-solid fa-check"></i> Pixel + Analytics Setup</li>
+                    <li><i class="fa-solid fa-check"></i> Lifetime Update</li>
+                    <li><i class="fa-solid fa-check"></i> Priority Support</li>
+                </ul>
+                <a href="https://wa.me/8801639366783?text=Boss%20Agency%20Package%2020000%20tk%20nite%20chai" target="_blank" class="btn-secondary">WhatsApp এ অর্ডার</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. FAQ + Footer - FIXED: target="_blank" এড করা হইছে -->
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>ডেলিভারি কতদিনে? <i class="fa-solid fa-plus"></i></h3>
+            <p>Starter 1 দিন, Pro 3 দিন, Agency 5 দিন।</p>
+        </div>
+        <div class="faq-item">
+            <h3>হোস্টিং কি আপনারা দিবেন? <i class="fa-solid fa-plus"></i></h3>
+            <p>না। তবে Namecheap/Hostinger এ সেটাপ করে দিব। ৳100/মাস খরচ।</p>
+        </div>
+        <div class="faq-item">
+            <h3>পেমেন্ট কিভাবে? <i class="fa-solid fa-plus"></i></h3>
+            <p>50% Advance bKash: 01639366783, 50% ডেলিভারির পর।</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Web Sheba. All rights reserved.</p>
+        <a href="https://wa.me/8801639366783?text=Boss%20Landing%20Page%20সম্পর্কে%20জানতে%20চাই" target="_blank" class="whatsapp-float">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
